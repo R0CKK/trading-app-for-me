@@ -1,4 +1,5 @@
-import mysql
+import mysql.connector
+
 CREATE TABLE IF NOT EXISTS stock (
   id INT AUTO_INCREMENT PRIMARY KEY,
   symbol VARCHAR(20) NOT NULL UNIQUE,
